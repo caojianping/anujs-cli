@@ -19,7 +19,7 @@ program
     .parse(process.argv);
 
 // 项目名称
-let projectName = program.args[0];
+let projectName = program.args[1];
 if (!projectName) {// projectName为必填项，如果不存在，那么按照--help选项处理
     program.help();
     return;
