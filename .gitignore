@@ -105,5 +105,3 @@ dist
 
 # custom
 /.idea
-package-lock.json
-yarn-lock.json
