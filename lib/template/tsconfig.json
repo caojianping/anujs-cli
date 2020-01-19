@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "rootDir": "./",
+        "sourceRoot": "./src/",
+        "outDir": "./dist/",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "lib": [
+            "es2016",
+            "dom"
+        ],
+        "target": "es5",
+        "sourceMap": true,
+        "allowJs": true,
+        "jsx": "react",
+        "allowSyntheticDefaultImports": true,
+        "noImplicitReturns": true,
+        "importHelpers": true,
+        "strictNullChecks": true,
+        "suppressImplicitAnyIndexErrors": false,
+        "suppressExcessPropertyErrors": false,
+        "forceConsistentCasingInFileNames": true,
+        "paths": {
+            "@/*": [
+                "src/*"
+            ],
+            "reach-router": [
+                "node_modules/anujs/dist/Router.js"
+            ],
+            "prop-types": [
+                "node_modules/anujs/lib/ReactPropTypes"
+            ],
+            "create-react-class": [
+                "node_modules/anujs/lib/createClass"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules/*"
+    ]
+}
