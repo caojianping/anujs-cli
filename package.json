@@ -1,6 +1,6 @@
 {
     "name": "anujs-cli",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "The scaffolding tool generate anujs、ie8、TypeScript template.",
     "main": "bin/anujs-cli.js",
     "bin": {

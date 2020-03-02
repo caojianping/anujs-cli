@@ -5,5 +5,11 @@ The scaffolding tool generate anujs, ie8, TypeScript template.
 Using npm:
 ```bash
 $ npm install anujs-cli --global
-$ anujs-cli init [projectName]
+$ anujs-cli init [project-name]
+```
+
+Using yarn:
+```bash
+$ yarn global add anujs-cli
+$ anujs-cli init [project-name]
 ```
