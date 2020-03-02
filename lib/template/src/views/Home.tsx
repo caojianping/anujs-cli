@@ -3,6 +3,7 @@ import demoImg from '../assets/images/demo.gif';
 
 namespace Home {
     export interface Props {
+        path: string;
     }
 
     export interface State {

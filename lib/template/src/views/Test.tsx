@@ -2,6 +2,7 @@ import React from 'react';
 
 namespace Test {
     export interface Props {
+        path: string;
     }
 
     export interface State {
