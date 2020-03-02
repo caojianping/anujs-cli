@@ -1,10 +1,10 @@
 {
     "name": "anujs-cli",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "The scaffolding tool generate anujs、ie8、TypeScript template.",
     "main": "bin/anujs-cli.js",
     "bin": {
-        "anujs-cli": "./bin/anujs-cli.js"
+        "anujs-cli": "./bin/index.js"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
