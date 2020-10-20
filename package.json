@@ -1,7 +1,7 @@
 {
     "name": "anujs-cli",
-    "version": "1.0.4",
-    "description": "The scaffolding tool generate anujs、ie8、TypeScript template.",
+    "version": "1.0.5",
+    "description": "基于anujs(React迷你版)、IE8、TypeScript的模板代码生成器，提供命令行工具生成相关模板代码，兼容IE8+浏览器。",
     "main": "bin/anujs-cli.js",
     "bin": {
         "anujs-cli": "./bin/index.js"
@@ -21,5 +21,10 @@
         "log-symbols": "^3.0.0",
         "metalsmith": "^2.3.0"
     },
-    "devDependencies": {}
+    "devDependencies": {},
+    "prettier": {
+        "printWidth": 120,
+        "tabWidth": 4,
+        "singleQuote": true
+    }
 }

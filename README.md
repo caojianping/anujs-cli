@@ -1,5 +1,5 @@
 # anujs-cli
-anujs, TypeScript, ie8 模板脚手架。
+基于anujs(React迷你版)、IE8、TypeScript的模板代码生成器，提供命令行工具生成相关模板代码，兼容IE8+浏览器。
 
 ## 安装
 使用 npm:
