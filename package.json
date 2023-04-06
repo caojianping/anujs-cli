@@ -6,6 +6,10 @@
   "bin": {
     "anujs-cli": "./bin/index.js"
   },
+  "files": [
+    "bin",
+    "lib"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
