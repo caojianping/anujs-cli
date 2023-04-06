@@ -1,0 +1,33 @@
+@import './var.less';
+@import './mixin.less';
+
+// 清除浮动样式
+.clearfix {
+  *zoom: 1;
+
+  &:after {
+    display: block;
+    height: 0;
+    content: '';
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+  }
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+// 显示、消失样式
+.show {
+  display: block !important;
+}
+
+.hide {
+  display: none !important;
+}
