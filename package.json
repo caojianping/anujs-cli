@@ -1,8 +1,8 @@
 {
   "name": "anujs-cli",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "基于anujs(React迷你版)、IE8、TypeScript的模板代码生成器，提供命令行工具生成相关模板代码，兼容IE8+浏览器。",
-  "main": "bin/anujs-cli.js",
+  "main": "bin/index.js",
   "bin": {
     "anujs-cli": "./bin/index.js"
   },
@@ -13,8 +13,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "caojianping",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caojianping/anujs-cli/issues"
+  },
+  "homepage": "https://github.com/caojianping/anujs-cli#readme",
   "dependencies": {
     "chalk": "^3.0.0",
     "co": "^4.6.0",
@@ -24,6 +28,5 @@
     "inquirer": "^7.0.3",
     "log-symbols": "^3.0.0",
     "metalsmith": "^2.3.0"
-  },
-  "devDependencies": {}
+  }
 }
